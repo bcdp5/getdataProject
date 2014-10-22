@@ -1,0 +1,372 @@
+"subject"  
+        List of subject in the experiment
+                01...30 .Integer Id of each subject
+          
+"activity" 
+        Activity performed by each subject
+                1 .Walking
+                2 .Walking_Upstairs
+                3 .Walking_Downstairs
+                4 .Sitting
+                5 .Standing
+                6 .Laying
+                
+
+
+The following variables are named based on the following rules:
+    - 't' stands for time domain signals
+    - 'f' stands for Fast Fourier Transform
+    - 'Acc' stands for accelerometer signals
+    - 'Gyro' stands for gyroscope signals
+    - 'Jerk' stands for Jerk signals (obtained by body linear acceleration and angular velocity derived in time)
+    - 'Freq' stands for frequency domain signals
+    - 'Mag' stands for magnitude of the signals
+    - 'mean()' Mean value
+    - 'std()' Standard deviation
+    - 'angle()' Angle between to vectors
+    - 'X','Y','Z' are the 3-axial measurments
+
+
+        "tBodyAcc-mean()-X"
+                Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAcc-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAcc-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAcc-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAcc-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAcc-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerk-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerk-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerk-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyro-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyro-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyro-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerk-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerk-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerk-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAccMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerkMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerkMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-meanFreq()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-meanFreq()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-meanFreq()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-meanFreq()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-meanFreq()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-meanFreq()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-mean()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-mean()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-mean()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-meanFreq()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-meanFreq()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-meanFreq()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccMag-mean()" 
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccMag-meanFreq()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyAccJerkMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyAccJerkMag-meanFreq()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyGyroMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyGyroMag-meanFreq()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyGyroJerkMag-mean()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyGyroJerkMag-meanFreq()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "angle(tBodyAccMean,gravity)"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "angle(tBodyAccJerkMean),gravityMean)"
+        
+               Average value for each activity performed by each subject
+                          .number
+        "angle(tBodyGyroMean,gravityMean)"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "angle(tBodyGyroJerkMean,gravityMean)"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "angle(X,gravityMean)"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "angle(Y,gravityMean)"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "angle(Z,gravityMean)"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAcc-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAcc-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAcc-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAcc-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAcc-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAcc-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerk-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerk-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerk-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyro-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyro-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyro-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerk-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerk-std()-Y" 
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerk-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tGravityAccMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyAccJerkMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "tBodyGyroJerkMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAcc-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccJerk-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-std()-X"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-std()-Y"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyGyro-std()-Z"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyAccMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyAccJerkMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyGyroMag-std()"
+               Average value for each activity performed by each subject
+                          .number
+        
+        "fBodyBodyGyroJerkMag-std()"
+               Average value for each activity performed by each subject
+                          .number
