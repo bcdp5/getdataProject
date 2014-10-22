@@ -14,8 +14,10 @@ The following steps are performed by the script 'run_analysis.R' :
 
 Please notice that step 1 and 4 are handled at the same time, because I found that it is more efficient. 
 
+
+
 codeBook.txt
 --------------
 
 It's a self described file. 
-Basically it stores all the information about the variables of the final data set, created at step 5.
+Basically it stores all the information (names, meanings, type of values) about the variables of the final data set, created at step 5.
