@@ -1,6 +1,8 @@
 GETTING &amp; CLEANING DATA: COURSE PROJECT
 ==============
 
+run_analysis.R
+==============
 
 The script run_analysis.R performs the following steps:
 
@@ -12,4 +14,8 @@ The script run_analysis.R performs the following steps:
 
 Please notice that step 1 and 4 are handled at the same time, because I found that it is more efficient. 
 
+codeBook.txt
+==============
 
+It's a self described file. 
+Basically it stores all the information about the variables of the final data set, created at step 5.
