@@ -1,4 +1,15 @@
-getdataProject
+GETTING &amp; CLEANING DATA: COURSE PROJECT
 ==============
 
-GETTING &amp; CLEANING DATA: COURSE PROJECT
+
+The script run_analysis.R performs the following steps:
+
+  1 - Merges the training and the test sets to create one data set.
+	2 - Extracts only the measurements on the mean and standard deviation for each measurement. 
+	3 - Uses descriptive activity names to name the activities in the data set
+	4 - Appropriately labels the data set with descriptive variable names. 
+	5 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+Please notice that step 1 and 4 are handled at the same time, because I found that it is more efficient. 
+
+
